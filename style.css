@@ -5,9 +5,12 @@ body{
     font-family: Georgia;
     text-align: center;
 }
-header{
+
+header, footer{
     background-color: #BA6B6C;
     padding: 7px;
+    height: 90px;
+    width: 100%;
 }
 header a{
     color: white;
@@ -23,7 +26,25 @@ header a{
     width: 60%;
     height: 500px;
 }
+.data{
+    background-color: mistyrose;
+    padding: 50px;
+}
+table{
+    border: solid 1px maroon;
+    width: 80%;
+}
+h2::first-letter{
+    color: maroon;
+}
 .center img{
     box-shadow: 6px 6px 6px 6px rgb(151, 151, 151);
     margin: 7px;
+}
+footer{
+    background-color: #BA6B6C;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    font-size: 15px;
 }
